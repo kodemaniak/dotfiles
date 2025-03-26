@@ -1,0 +1,18 @@
+[init]
+	defaultBranch = main
+
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	re = remote
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = carsten@kodemaniak.de
+	name = Carsten Saathoff
